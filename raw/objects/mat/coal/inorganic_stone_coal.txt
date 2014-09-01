@@ -2,6 +2,8 @@ inorganic_stone_coal
 
 [OBJECT:INORGANIC]
 
+todo: add anthracite
+
 [INORGANIC:COAL_BITUMINOUS]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
 [STATE_NAME_ADJ:ALL_SOLID:bituminous coal][DISPLAY_COLOR:0:7:1][TILE:15]
@@ -25,4 +27,11 @@ inorganic_stone_coal
 [SOLID_DENSITY:1250]  Should be less dense than bituminous coal.
 [IS_STONE]
 
+semiprecious stone which is technically low-grade coal
+[INORGANIC:JET]
+[USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+[STATE_NAME_ADJ:ALL_SOLID:jet][DISPLAY_COLOR:0:7:1][TILE:176]
+[ENVIRONMENT:SEDIMENTARY:CLUSTER:100]
+[IS_STONE]
+[SOLID_DENSITY:1320]
 
