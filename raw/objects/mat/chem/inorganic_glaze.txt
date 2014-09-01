@@ -1,0 +1,32 @@
+inorganic_glaze
+
+[OBJECT:INORGANIC]
+
+
+note: there's no way to get rid of the need for ASH_GLAZE without editing more than the raws
+	it's referenced by ash, which is hard-coded
+[INORGANIC:ASH_GLAZE]
+	[USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+	[STATE_NAME:ALL:ash glaze]
+	[STATE_NAME_ADJ:ALL:ash glaze]
+	[DISPLAY_COLOR:3:0:0][TILE:'#']
+	[SOLID_DENSITY:2000]
+	[IS_STONE]
+	[MATERIAL_VALUE:5]
+	[NO_STONE_STOCKPILE]
+
+
+note: tag in form of
+	MATERIAL_REACTION_PRODUCT:GLAZE_MAT:INORGANIC:TIN_GLAZE
+
+[INORGANIC:TIN_GLAZE]
+	[USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+	[STATE_NAME:ALL:tin glaze]
+	[STATE_NAME_ADJ:ALL:tin glaze]
+	[DISPLAY_COLOR:7:7:1][TILE:'#']
+	[SOLID_DENSITY:2000]
+	[IS_STONE]
+	[MATERIAL_VALUE:10]
+	[NO_STONE_STOCKPILE]
+
+
